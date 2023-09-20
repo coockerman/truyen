@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    background-image: url("images/webbgcopy-1338.webp");
+}
+.smaller {
+    width: 200px;
+    height: auto;
+}
+.search-box input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-right: 5px;
+    flex: 1;
+    border-bottom: none; 
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.search-box input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 5px;
+    margin-right: 5px;
+    flex: 1;
+}
+.search-box button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFE0;
+    width: 100%;
+}
+.menu li {
+    margin-left: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+.menu li i {
+    color: white;
+}
+.search-box button i {
+    color: black;
+}
+.menu-link {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.menu-link i {
+    margin-right: 10px;
+    position: relative;
+}
+.truyen {
+    padding:200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    grid-gap: 20px;
+}
+  
+.truyen-item {
+    text-align: center;
+    padding-bottom: 50px;
+}
+  
+.truyen-item img {
+    max-width: 40%;
+    width: auto;
+    height: auto;
+    margin: 100px;
+}
+.truyen-item a {
+    text-decoration: none;
+}
+.truyen-item h3{
+    color: black;
+}
