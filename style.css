@@ -91,8 +91,8 @@ header {
   
 .truyen-item img {
     max-width: 40%;
-    width: auto;
-    height: auto;
+    width: 150px;
+    height: 150px;
     margin: 100px;
 }
 .truyen-item a {
