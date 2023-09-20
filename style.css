@@ -23,7 +23,7 @@ body{
 .search-box {
     display: flex;
     align-items: center;
-    width: 220px;
+    width: 250px;
     border: 1px solid #ccc;
     border-radius: 20px; 
     padding: 5px;
@@ -54,7 +54,8 @@ header {
     width: 100%;
 }
 .menu li {
-    margin-left: 80px;
+    height: 100%;
+    margin-left: 60px;
     display: inline-block;
     vertical-align: middle;
     color: white;
@@ -71,12 +72,16 @@ header {
     display: flex;
     align-items: center;
 }
+
+.menu-link:hover {
+    color: #5a5e49;
+}
 .menu-link i {
     margin-right: 10px;
     position: relative;
 }
 .truyen {
-    padding:200px;
+    padding:10px 200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
@@ -85,19 +90,23 @@ header {
 }
   
 .truyen-item {
+    background-color: #6ccd49;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
   
 .truyen-item img {
     max-width: 40%;
     width: 150px;
     height: 150px;
-    margin: 100px;
+    position: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 .truyen-item a {
     text-decoration: none;
 }
 .truyen-item h3{
     color: black;
+    font-size: 16px;
 }
